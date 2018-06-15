@@ -28,7 +28,7 @@
 }
 
 .product-card{
-    height: 250px;
+    height: 220px;
     border: 2px solid #aaa;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -38,7 +38,39 @@
   color: #aaa;
 }
 .product-img{
-  height: 180px;
+  height: 160px;
   max-width: 346px;
   margin-bottom: 10px;
+}
+.selected-product-card-img{
+  width: 40px;
+  height: 40px;
+}
+.highlighted-button{
+    background-color: #3e8bb5;
+    color: black;
+    border: 2px solid #3e8bb5;
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+}
+
+.product-compare-card{
+    height: 220px;
+    border: 2px solid #aaa;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.product-compare-img{
+  height: 205px;
+  width: 446px;
+  margin-bottom: 10px;
+}
+.product-compare-container{
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.padding-sides{
+  padding: 0 360px;
 }
